@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/APPITUNEITY/static/css/main.a30e0cd0.css",
+    "main.js": "/APPITUNEITY/static/js/main.589594ee.js",
+    "static/js/787.a2a577ca.chunk.js": "/APPITUNEITY/static/js/787.a2a577ca.chunk.js",
+    "static/media/Inter-ExtraBold.ttf": "/APPITUNEITY/static/media/Inter-ExtraBold.ff90249a320fd94ec508.ttf",
+    "static/media/Inter-Black.ttf": "/APPITUNEITY/static/media/Inter-Black.cebeacf9cf3be04078de.ttf",
+    "static/media/Inter-Bold.ttf": "/APPITUNEITY/static/media/Inter-Bold.1eca2d329458b92342aa.ttf",
+    "static/media/Inter-SemiBold.ttf": "/APPITUNEITY/static/media/Inter-SemiBold.a41b925faf940d267b62.ttf",
+    "static/media/Inter-Medium.ttf": "/APPITUNEITY/static/media/Inter-Medium.4ebf1acf62f447ea2f0d.ttf",
+    "static/media/Inter-ExtraLight.ttf": "/APPITUNEITY/static/media/Inter-ExtraLight.60dd7fa9ebb547b20238.ttf",
+    "static/media/Inter-Thin.ttf": "/APPITUNEITY/static/media/Inter-Thin.32a2156a01dfb1834cac.ttf",
+    "static/media/Inter-Light.ttf": "/APPITUNEITY/static/media/Inter-Light.a6cdc9ac687f817dbfb5.ttf",
+    "static/media/Inter-Regular.ttf": "/APPITUNEITY/static/media/Inter-Regular.a3e5baa244e35d0f891d.ttf",
+    "static/media/Roboto-BlackItalic.ttf": "/APPITUNEITY/static/media/Roboto-BlackItalic.fd62a10743bd89a3d97c.ttf",
+    "static/media/Roboto-MediumItalic.ttf": "/APPITUNEITY/static/media/Roboto-MediumItalic.82736aaa11c64709055f.ttf",
+    "static/media/Roboto-LightItalic.ttf": "/APPITUNEITY/static/media/Roboto-LightItalic.c590382422f2742d788b.ttf",
+    "static/media/Roboto-ThinItalic.ttf": "/APPITUNEITY/static/media/Roboto-ThinItalic.9d2ca34eae96e77c6eef.ttf",
+    "static/media/Roboto-BoldItalic.ttf": "/APPITUNEITY/static/media/Roboto-BoldItalic.87d61cea6fe1d235d4a8.ttf",
+    "static/media/Roboto-Medium.ttf": "/APPITUNEITY/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Thin.ttf": "/APPITUNEITY/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
+    "static/media/Roboto-Regular.ttf": "/APPITUNEITY/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Black.ttf": "/APPITUNEITY/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
+    "static/media/Roboto-Bold.ttf": "/APPITUNEITY/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/Roboto-Light.ttf": "/APPITUNEITY/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "index.html": "/APPITUNEITY/index.html",
+    "main.a30e0cd0.css.map": "/APPITUNEITY/static/css/main.a30e0cd0.css.map",
+    "main.589594ee.js.map": "/APPITUNEITY/static/js/main.589594ee.js.map",
+    "787.a2a577ca.chunk.js.map": "/APPITUNEITY/static/js/787.a2a577ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a30e0cd0.css",
+    "static/js/main.589594ee.js"
+  ]
+}
