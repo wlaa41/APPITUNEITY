@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/APPITUNEITY/static/css/main.0f1e427f.css",
-    "main.js": "/APPITUNEITY/static/js/main.56018fb7.js",
+    "main.css": "/APPITUNEITY/static/css/main.70ca09a4.css",
+    "main.js": "/APPITUNEITY/static/js/main.fcbc341d.js",
     "static/js/787.a2a577ca.chunk.js": "/APPITUNEITY/static/js/787.a2a577ca.chunk.js",
     "static/media/Inter-ExtraBold.ttf": "/APPITUNEITY/static/media/Inter-ExtraBold.ff90249a320fd94ec508.ttf",
     "static/media/Inter-Black.ttf": "/APPITUNEITY/static/media/Inter-Black.cebeacf9cf3be04078de.ttf",
@@ -28,12 +28,12 @@
     "static/media/logo-white-01.svg": "/APPITUNEITY/static/media/logo-white-01.4fdc19a0657a1e657b9a5963f636a805.svg",
     "static/media/logo-dg.svg": "/APPITUNEITY/static/media/logo-dg.a024d7fed96e506fc002.svg",
     "index.html": "/APPITUNEITY/index.html",
-    "main.0f1e427f.css.map": "/APPITUNEITY/static/css/main.0f1e427f.css.map",
-    "main.56018fb7.js.map": "/APPITUNEITY/static/js/main.56018fb7.js.map",
+    "main.70ca09a4.css.map": "/APPITUNEITY/static/css/main.70ca09a4.css.map",
+    "main.fcbc341d.js.map": "/APPITUNEITY/static/js/main.fcbc341d.js.map",
     "787.a2a577ca.chunk.js.map": "/APPITUNEITY/static/js/787.a2a577ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f1e427f.css",
-    "static/js/main.56018fb7.js"
+    "static/css/main.70ca09a4.css",
+    "static/js/main.fcbc341d.js"
   ]
 }
