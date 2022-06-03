@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/APPITUNEITY/static/css/main.bfe3a854.css",
-    "main.js": "/APPITUNEITY/static/js/main.b18f7da6.js",
+    "main.css": "/APPITUNEITY/static/css/main.547694cf.css",
+    "main.js": "/APPITUNEITY/static/js/main.c40b39d0.js",
     "static/js/787.a2a577ca.chunk.js": "/APPITUNEITY/static/js/787.a2a577ca.chunk.js",
     "static/media/Inter-ExtraBold.ttf": "/APPITUNEITY/static/media/Inter-ExtraBold.ff90249a320fd94ec508.ttf",
     "static/media/Inter-Black.ttf": "/APPITUNEITY/static/media/Inter-Black.cebeacf9cf3be04078de.ttf",
@@ -24,15 +24,16 @@
     "static/media/Roboto-Bold.ttf": "/APPITUNEITY/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
     "static/media/Roboto-Light.ttf": "/APPITUNEITY/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
     "static/media/logo-colorful.svg": "/APPITUNEITY/static/media/logo-colorful.17fea84eff685967f3f0e618e5915dc2.svg",
+    "static/media/Web Application Development.svg": "/APPITUNEITY/static/media/Web Application Development.67e64fd9ae6f8aef5953119d13c81e17.svg",
     "static/media/logo-white-01.svg": "/APPITUNEITY/static/media/logo-white-01.4fdc19a0657a1e657b9a5963f636a805.svg",
-    "static/media/logo-dg.svg": "/APPITUNEITY/static/media/logo-dg.8e97782caafb7d0ba529.svg",
+    "static/media/logo-dg.svg": "/APPITUNEITY/static/media/logo-dg.a024d7fed96e506fc002.svg",
     "index.html": "/APPITUNEITY/index.html",
-    "main.bfe3a854.css.map": "/APPITUNEITY/static/css/main.bfe3a854.css.map",
-    "main.b18f7da6.js.map": "/APPITUNEITY/static/js/main.b18f7da6.js.map",
+    "main.547694cf.css.map": "/APPITUNEITY/static/css/main.547694cf.css.map",
+    "main.c40b39d0.js.map": "/APPITUNEITY/static/js/main.c40b39d0.js.map",
     "787.a2a577ca.chunk.js.map": "/APPITUNEITY/static/js/787.a2a577ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfe3a854.css",
-    "static/js/main.b18f7da6.js"
+    "static/css/main.547694cf.css",
+    "static/js/main.c40b39d0.js"
   ]
 }
