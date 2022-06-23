@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/APPITUNEITY/static/css/main.4337f27d.css",
-    "main.js": "/APPITUNEITY/static/js/main.8e7c0d2a.js",
+    "main.css": "/APPITUNEITY/static/css/main.e88497ee.css",
+    "main.js": "/APPITUNEITY/static/js/main.ac8ccac0.js",
     "static/js/787.1afde5c8.chunk.js": "/APPITUNEITY/static/js/787.1afde5c8.chunk.js",
+    "static/media/London-picture.webp": "/APPITUNEITY/static/media/London-picture.6547f51a47871082a62a.webp",
     "static/media/Inter-ExtraBold.ttf": "/APPITUNEITY/static/media/Inter-ExtraBold.ff90249a320fd94ec508.ttf",
     "static/media/Inter-Black.ttf": "/APPITUNEITY/static/media/Inter-Black.cebeacf9cf3be04078de.ttf",
     "static/media/Inter-Bold.ttf": "/APPITUNEITY/static/media/Inter-Bold.1eca2d329458b92342aa.ttf",
@@ -33,12 +34,12 @@
     "static/media/APPITUITY.svg": "/APPITUNEITY/static/media/APPITUITY.91360a9ec7f504132c2b9fbc9927dd23.svg",
     "static/media/logo-white.svg": "/APPITUNEITY/static/media/logo-white.d91166b58fb659471f52474146d44633.svg",
     "index.html": "/APPITUNEITY/index.html",
-    "main.4337f27d.css.map": "/APPITUNEITY/static/css/main.4337f27d.css.map",
-    "main.8e7c0d2a.js.map": "/APPITUNEITY/static/js/main.8e7c0d2a.js.map",
+    "main.e88497ee.css.map": "/APPITUNEITY/static/css/main.e88497ee.css.map",
+    "main.ac8ccac0.js.map": "/APPITUNEITY/static/js/main.ac8ccac0.js.map",
     "787.1afde5c8.chunk.js.map": "/APPITUNEITY/static/js/787.1afde5c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4337f27d.css",
-    "static/js/main.8e7c0d2a.js"
+    "static/css/main.e88497ee.css",
+    "static/js/main.ac8ccac0.js"
   ]
 }
