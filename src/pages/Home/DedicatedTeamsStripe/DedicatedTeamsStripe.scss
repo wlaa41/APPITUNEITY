@@ -1,0 +1,49 @@
+@import 'src/styles/variables';
+@import 'src/styles/functions';
+@import 'src/styles/mixins';
+
+.dedicated-teams-stripe {
+    padding-bottom: 8rem;
+    background: linear-gradient(149.47deg, rgba(39, 102, 223, 0.9) 5.08%, rgba(68, 66, 179, 0.9) 50.65%, rgba(95, 39, 179, 0.9) 75.66%);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+    .stripe-header {
+        padding: 5rem 0 4.5rem;
+
+        h2 {
+            font-family: $roboto_regular;
+            font-style: normal;
+            font-weight: 600;
+            font-size: font-size(24);
+            text-align: center;
+            color: $white;
+            margin: 0;
+
+        }
+
+    }
+
+    .outline-card-item {
+        margin-bottom: 3rem;
+    }
+
+    .footer-desc {
+        font-family: $roboto_regular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: font(16);
+        color: #FFFFFF;
+        mix-blend-mode: overlay;
+        margin: 2rem auto;
+        padding: 0 5%;
+
+        @include media-xxl {
+            max-width: 1050px;
+            padding: 0;
+        }
+
+        @include media-lt-md {
+            text-align: center;
+        }
+    }
+}

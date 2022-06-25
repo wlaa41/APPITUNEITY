@@ -1,0 +1,144 @@
+@import "./functions";
+@import "./mixins";
+
+.app-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+
+.x-scrollbar {
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    overflow-y: scroll;
+    // background: #d0d0d0;
+    // box-shadow: inset 0 0 4px #d0d0d0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    // background: #0000FF;
+    border-radius: 10px;
+  }
+}
+
+// @media (min-width: 1920px) {
+//   .app-container {
+//     // max-width: 1920px;
+//   }
+// }
+
+// @include media-xxs {
+//   html {
+//     font-size: 12px;
+//   }
+
+//   .main-container {
+//     padding-left: 5% !important;
+//     padding-right: 5% !important;
+//   }
+
+//   .mc-no-gutters {
+//     margin-left: 5% !important;
+//     margin-right: -5% !important;
+//   }
+// }
+
+// @include media-xs {
+//   html {
+//     font-size: 12px;
+//   }
+
+//   .main-container {
+//     padding-left: 5% !important;
+//     padding-right: 5% !important;
+//   }
+
+//   .mc-no-gutters {
+//     margin-left: 5% !important;
+//     margin-right: -5% !important;
+//   }
+// }
+
+// @include media-sm {
+//   html {
+//     font-size: 12px;
+//   }
+
+//   .main-container {
+//     padding-left: 5% !important;
+//     padding-right: 5% !important;
+//   }
+
+//   .mc-no-gutters {
+//     margin-left: 5% !important;
+//     margin-right: -5% !important;
+//   }
+// }
+
+// @include media-md {
+//   html {
+//     font-size: 12px;
+//   }
+
+//   .main-container {
+//     padding-left: 6% !important;
+//     padding-right: 6% !important;
+//   }
+
+//   .mc-no-gutters {
+//     margin-left: 6% !important;
+//     margin-right: -6% !important;
+//   }
+// }
+
+// @include media-lg {
+//   html {
+//     font-size: 14px;
+//   }
+
+//   .main-container {
+//     padding-left: 6% !important;
+//     padding-right: 6% !important;
+//   }
+
+//   .mc-no-gutters {
+//     margin-left: 6% !important;
+//     margin-right: -6% !important;
+//   }
+// }
+
+// @include media-xl {
+//   html {
+//     font-size: 15px;
+//   }
+
+//   .main-container {
+//     padding-left: 7% !important;
+//     padding-right: 7% !important;
+//   }
+
+//   .mc-no-gutters {
+//     margin-left: 7% !important;
+//     margin-right: -7% !important;
+//   }
+// }
+
+// @include media-xxl {
+//   html {
+//     font-size: 17px;
+//   }
+
+//   .main-container {
+//     padding-left: 7% !important;
+//     padding-right: 7% !important;
+//   }
+
+//   .mc-no-gutters {
+//     margin-left: 7% !important;
+//     margin-right: -7% !important;
+//   }
+// }

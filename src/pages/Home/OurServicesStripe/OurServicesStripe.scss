@@ -1,0 +1,114 @@
+@import 'src/styles/variables';
+@import 'src/styles/functions';
+@import 'src/styles/mixins';
+
+.our-services-stripe {
+    background-color: $white;
+    padding: 0 4% ;
+    background-color: rgb(240, 240, 240);
+    overflow-x: scroll;
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .stripe-header {
+        padding: 5rem 0 4.5rem;
+
+
+
+        h2 {
+            font-family: $roboto_bold;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.7em;
+            text-align: center;
+            color: #626262;
+            margin: 0;
+
+        }
+    }
+
+    .app-card-container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        max-width: 1550px;
+        gap:3%;
+        .app-card-item {
+            display: flex;
+            justify-content: center;
+            // align-items: center;
+            margin-bottom: 5rem;
+            &:nth-of-type(4n+1) {
+                .card-theme {
+                    background: linear-gradient(149.47deg, rgba(39, 102, 223, 0.8) 5.08%, rgba(68, 66, 179, 0.8) 50.65%, rgba(95, 39, 179, 0.8) 75.66%);
+                }
+                p{ border-top: 2px solid rgba(68, 66, 179, 1);}
+                .innerWhite p span:last-child{
+                    color: darkblue;
+                }
+            }
+
+            &:nth-of-type(4n+2) {
+                .card-theme {
+                    background: linear-gradient(149.47deg, rgba(20, 170, 105, 0.8) 5.08%, rgba(25, 145, 128, 0.8) 50.65%, rgba(33, 127, 149, 0.8) 75.66%);
+                }
+                p{ border-top: 2px solid rgb(20, 228, 20);}
+                .innerWhite p span:last-child{
+                    color: green;
+                }
+            }
+
+            &:nth-of-type(4n+3) {
+                .card-theme {
+                    background: linear-gradient(149.47deg, rgba(184, 67, 118, 0.8) 5.08%, rgba(162, 51, 125, 0.8) 50.65%, rgba(137, 31, 127, 0.8) 75.66%);
+                }
+                p{ border-top: 2px solid purple;}
+                .innerWhite p span:last-child{
+                    color: purple;
+                }
+            }
+
+            &:nth-of-type(4n+4) {
+                .card-theme {
+                    background: linear-gradient(166.2deg, rgba(51, 145, 255, 0.8) 5.77%, rgba(62, 151, 255, 0.8) 44.34%, rgba(32, 159, 231, 0.8) 86.27%);
+                }
+                p{ border-top: 2px solid rgba(51, 145, 255, 1);}
+                .innerWhite p span:last-child{
+                    color: rgb(25, 104, 207);
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 860px) 
+{
+    .our-services-stripe .stripe-header h2 {
+        font-weight: 600;
+        font-size: 2em;
+        padding: 0 4%;
+    }
+    .our-services-stripe {
+        padding: 0;
+    .app-card-container 
+    {
+        position: relative;
+        margin-top: 0rem;
+        left: 12px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+
+        .app-card-item 
+        {
+            // flex-shrink: 0;
+        .app-card{
+            box-shadow: none !important;
+        }
+        }
+    }
+}
+}

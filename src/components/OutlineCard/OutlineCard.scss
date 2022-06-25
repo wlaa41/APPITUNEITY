@@ -1,0 +1,49 @@
+@import 'src/styles/variables';
+@import 'src/styles/functions';
+@import 'src/styles/mixins';
+
+$outline_card_width: 158;
+$outline_card_height: 260;
+
+.outline-card {
+    height: $outline_card_height+px;
+    padding: 3.5rem .7rem 1rem;
+
+    width: $outline_card_width+px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FFFFFF;
+    // box-shadow: 12px 11px 60px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    mix-blend-mode: overlay;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        mix-blend-mode: lighten;
+        transform: translate3d(0, -10%, 0);
+    }
+
+    .outline-card-desc {
+        h2 {
+            font-family: $roboto_light;
+            font-style: normal;
+            font-weight: 500;
+            font-size: font-size(23, em);
+            text-align: center;
+            color: #FFFFFF;
+            mix-blend-mode: overlay;
+        }
+    }
+
+    .outline-card-img {
+        text-align: center;
+        margin-bottom: 1rem;
+
+        img {
+            // margin: 0 auto;
+            max-width: 45px;
+        }
+    }
+}

@@ -1,0 +1,112 @@
+@import 'src/styles/variables';
+@import 'src/styles/functions';
+@import 'src/styles/mixins';
+
+.briefStrip {
+    background: linear-gradient(149.47deg, rgba(39, 102, 223, 0.9) 5.08%, rgba(68, 66, 179, 0.9) 50.65%, rgba(95, 39, 179, 0.9) 75.66%);
+    padding: 14rem 4vw ;
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .up{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            .up-left{
+                margin-left: 2rem;
+            }
+        }
+        .down{
+            // position: ;
+            width: 100%;
+
+            display: flex;
+            flex-direction: row-reverse;  
+            max-width: 1200px;
+            transform: translateY(160px);
+            .down-left{
+                position: absolute;
+            }
+        }
+    }
+    .first-desc {
+        font-family: $roboto-light;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        color: $white;
+        width: 300px;
+        margin: 0;
+
+    }
+
+    .second-desc {
+        font-family: $roboto-light;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: $white;
+        width: 630px;
+        margin: 0;
+
+    }
+
+    .footer-desc {
+        font-family: $roboto-light;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1rem;
+        color: $white;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    .briefStrip {
+        background: linear-gradient(149.47deg, rgba(39, 102, 223, 0.9) 5.08%, rgba(68, 66, 179, 0.9) 50.65%, rgba(95, 39, 179, 0.9) 75.66%);
+        padding: 14rem 4vw ;
+        .main-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                
+            }
+            .up{
+                flex-direction: column;
+                div{
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+                .up-left{
+                    margin: 0 0 2rem 0;
+                   
+                }
+                
+            }
+            .down{
+                .down-left{
+
+                    text-align: center;
+                }
+            }
+        }
+        .first-desc {
+            width: initial;
+        }
+    
+        .second-desc {
+            font-family: $roboto-light;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            color: $white;
+            width: 630px;
+            margin: 0;
+    
+        }
+    }
+}

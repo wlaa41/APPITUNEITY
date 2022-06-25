@@ -1,0 +1,131 @@
+@import 'src/styles/variables';
+@import 'src/styles/functions';
+@import 'src/styles/mixins';
+
+.technologies-stripe {
+    background-color: $white;
+    padding-bottom: 5rem;
+
+    .stripe-header {
+        padding: 5rem 0 4.5rem;
+
+
+        h2 {
+            font-family: $roboto_medium;
+            font-style: normal;
+            font-weight: 500;
+            font-size: font-size(24);
+            text-align: center;
+            color: #989898;
+            margin: 0;
+
+        }
+    }
+
+    @include media-lt-sm {
+        padding-bottom: 3.5rem;
+
+        .stripe-header {
+            padding: 3.5rem 0 3rem;
+        }
+    }
+
+    @include media-xxs {
+        padding-bottom: 2.5rem;
+
+        .stripe-header {
+            padding: 2.5rem 0 2rem;
+        }
+    }
+
+    .my-swiper {
+
+        .swiper-slide {
+            text-align: center;
+        }
+
+        .tech-img {
+            max-width: 100px;
+            opacity: 0.4;
+            transition: opacity .4s ease-in-out;
+
+            &:hover {
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+
+        .swiper-slide-active {
+            .tech-img {
+                opacity: 1;
+            }
+
+            span {
+                color: red;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .tech-desc {
+        display: flex;
+        margin-top: 5rem;
+        text-align: center;
+        justify-self: center;
+
+        p {
+            font-style: normal;
+            font-size: font-size(16);
+            color: #848484;
+
+            &:first-of-type {
+                font-family: $roboto_medium;
+                margin-right: 7px;
+                font-weight: 600;
+            }
+
+            &:last-of-type {
+                font-family: $roboto_regular;
+                font-weight: 300;
+
+
+                @include media-gt-lg {
+                    max-width: 700px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                @include media-lg {
+                    max-width: 600px;
+                }
+
+            }
+        }
+
+        span {
+            font-family: $roboto_medium;
+            font-style: normal;
+            font-weight: 600;
+            font-size: fonr-size(16);
+            /* identical to box height */
+            text-decoration-line: underline;
+            color: #848484;
+            cursor: pointer;
+            transition: opacity .4s ease-in-out;
+            margin-left: 1.5rem;
+
+            &:hover {
+                opacity: 0.8;
+            }
+
+            &:active {
+                text-decoration-line: none
+            }
+        }
+
+        @include media-lt-md {
+            flex-direction: column;
+        }
+    }
+}

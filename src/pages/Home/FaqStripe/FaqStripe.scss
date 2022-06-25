@@ -1,0 +1,22 @@
+@import 'src/styles/variables';
+@import 'src/styles/functions';
+@import 'src/styles/mixins';
+
+.faq-stripe {
+    background-color: $white;
+    padding-bottom: 5rem;
+    .main-conta
+    .stripe-header {
+        padding: 5rem 0 4.5rem;
+        h2 {
+            font-family: $roboto_medium;
+            font-style: normal;
+            font-weight: 500;
+            font-size: font-size(24);
+            text-align: center;
+            color: #989898;
+            margin: 0;
+
+        }
+    }
+}

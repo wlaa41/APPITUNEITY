@@ -1,0 +1,10 @@
+@import '/src/styles/variables';
+@import '/src/styles/functions';
+@import '/src/styles/mixins';
+
+.footer-stripe {
+    background: #3E3E3E;
+    a {
+        color: #989898;
+    }
+}
