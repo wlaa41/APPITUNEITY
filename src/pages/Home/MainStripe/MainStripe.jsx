@@ -5,6 +5,7 @@ import info from "./info/MainStripInfo.jsx";
 import logoWhite from "../../../assets/images/logo-white.svg"
 import APPITUNITYwriten from "../../../assets/images/APPITUITY.svg"
 import { act } from "@testing-library/react";
+import './wordsStyle.scss'
 // import video1 from "../../../assets/vid/APPITUNEITY SOFTWARE DEVELOPMENT COMPANY.mp4"
 
 const MainStripe = () => {
@@ -50,7 +51,18 @@ const MainStripe = () => {
                     <div className="brief-highlight">
 
                         <h2>
-                            We have a talented team of professional web designers, developers, and project managers worked in a harmonious manner  To achieve the best results on your bussiness at a resonable cost.
+                            We have a <span className="mainstrip-talented">
+                                talented
+                                </span> team of professional web <span className="mainstrip-designers">
+                                designers,
+                                    </span> frontend and backend 
+                                    <span className="mainstrip-developers">
+                                    developers,
+                                        </span> and project managers worked in a harmonious manner To achieve the 
+                                        <span className="mainstrip-best">
+                                        best results
+                                        </span> 
+                                          on your bussiness at a resonable cost.
                         </h2>
                     </div>
                     <div className="brief-para">

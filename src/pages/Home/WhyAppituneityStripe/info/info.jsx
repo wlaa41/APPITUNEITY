@@ -4,7 +4,10 @@ import icon from './Planning-and-clarity-of-strategies.svg'
 export default function info() {
     return( [
         {
+
             id: 1,
+            titleSch:' desc ',
+            
             title: "Planning and clarity of strategies",
             description: "We have more than 10 years of experience in building mobile and web applications so that they integrate with the most common software systems such as ERP, CRM, and our software easily deals with cloud computing.",
             icon: icon,

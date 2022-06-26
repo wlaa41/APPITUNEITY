@@ -95,7 +95,7 @@ $fill_card_height: 410;
             }
 
             .fill-card-body {
-                padding-top: 2rem;
+                padding-top: 1.9rem;
 
                 p {
                     font-family: $roboto_light;
@@ -103,6 +103,7 @@ $fill_card_height: 410;
                     font-weight: 300;
                     font-size: font-size(14, em);
                     color: #dadada;
+                    padding-top: 1rem;
                 }
             }
 
@@ -133,3 +134,65 @@ $fill_card_height: 410;
         }
 }
 }
+
+
+
+.outline-card-item:nth-of-type(5n+1) {
+    .outline-card {
+        background: linear-gradient(149.47deg, rgba(39, 102, 223, 0.8) 5.08%, rgba(68, 66, 179, 0.8) 50.65%, rgba(95, 39, 179, 0.8) 75.66%);
+    }
+
+    p{ border-top: 2px solid rgba(68, 66, 179, 1);
+    }
+    .innerWhite p span:last-child{
+        color: darkblue;
+
+    }
+}
+
+.outline-card-item:nth-of-type(5n+2) {
+    .outline-card {
+
+        background: linear-gradient(149.47deg, rgba(20, 170, 105, 0.8) 5.08%, rgba(25, 145, 128, 0.8) 50.65%, rgba(33, 127, 149, 0.8) 75.66%);
+    }
+
+    p{ border-top: 2px solid rgb(134, 228, 20);}
+    .innerWhite p span:last-child{
+        color: green;
+    }
+}
+
+.outline-card-item:nth-of-type(5n+3) {
+    .outline-card {
+
+        background: linear-gradient(149.47deg, rgba(184, 67, 118, 0.8) 5.08%, rgba(162, 51, 125, 0.8) 50.65%, rgba(137, 31, 127, 0.8) 75.66%);
+    }
+
+    p{ border-top: 2px solid purple;}
+    .innerWhite p span:last-child{
+        color: purple;
+    }
+}
+.outline-card-item:nth-of-type(5n+4) {
+    .outline-card {
+        background: linear-gradient(166.2deg, rgba(51, 145, 255, 0.8) 5.77%, rgba(62, 151, 255, 0.8) 44.34%, rgba(32, 159, 231, 0.8) 86.27%);
+    }
+    p{ border-top: 2px solid rgba(51, 145, 255, 1);}
+    .innerWhite p span:last-child{
+        color: rgb(25, 104, 207);
+    }
+}
+.outline-card-item:nth-of-type(5n+5) {
+    .outline-card {
+        background: linear-gradient(149.47deg, rgba(170, 146, 19, 1) 5.08%,
+        rgba(175, 107, 25, 1) 50.65%, rgba(175, 76, 27, 1) 75.66%);
+         }
+    p{ 
+        border-top: 2px solid rgba(170, 146, 19, 1);
+        padding-top: 8px;
+    }
+    .innerWhite p span:last-child{
+        color: rgba(170, 146, 19, 1);
+    }
+}
+

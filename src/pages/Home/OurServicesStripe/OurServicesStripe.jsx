@@ -1,7 +1,8 @@
 import "./OurServicesStripe.scss";
 import info from './info/info'
-import AppCard from "../../../components/AppCardServices/AppCard";
-import icon from "../../../assets/images/cards_icons/Web Application Development.svg";
+import AppCard from "./AppCardServices/AppCard";
+
+
 const OurServicesStripe = () => {
     const cardItems = info()
     return (
@@ -13,7 +14,7 @@ const OurServicesStripe = () => {
                 <div className="app-card-container ">
                     {cardItems.map((item) => {
                         return (
-                            <div className="app-card-item col">
+                            <div className="app-card-item ">
                                 <AppCard className="card-theme" item={item} key={item.id} mode="horizontal" />
                             </div>
                         )

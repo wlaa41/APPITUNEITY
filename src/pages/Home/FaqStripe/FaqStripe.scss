@@ -4,19 +4,29 @@
 
 .faq-stripe {
     background-color: $white;
-    padding-bottom: 5rem;
-    .main-conta
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    .main-container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        max-width: 1000px ;
+    }
     .stripe-header {
-        padding: 5rem 0 4.5rem;
+        padding: 1.2rem 0 ;
         h2 {
             font-family: $roboto_medium;
             font-style: normal;
             font-weight: 500;
-            font-size: font-size(24);
+            font-size: 2.2rem;
             text-align: center;
             color: #989898;
             margin: 0;
-
         }
     }
 }
