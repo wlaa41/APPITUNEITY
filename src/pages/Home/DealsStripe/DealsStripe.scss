@@ -18,13 +18,12 @@
  
             .up-left{
                 font-size: 6em;
-                // text-shadow: 0px 7px 9px rgba(0, 0, 0, 0.503);
-                
                 background: linear-gradient(149.47deg, rgb(111, 159, 255) 6.08%, rgb(86, 145, 255) 11.08%, rgb(88, 86, 249) 50.65%, rgb(128, 43, 255) 75.66%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-
                 margin-left: 2rem;
+                font-family: $roboto-black;
+
             }
         }
         .down{

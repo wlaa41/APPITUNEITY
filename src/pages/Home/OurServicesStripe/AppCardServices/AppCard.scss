@@ -138,19 +138,15 @@ $app_card_height: 428;
         transition: transform 1s ease-in-out;
         //SMOOTHER MOVEMENT
         transition: all 1s cubic-bezier(.68,0,.4,1);
-
         // TILTING THE CARDS
         transform: rotateX(-8deg);
-
         &:not(:first-of-type) {
             margin-top: (-$app_card_height + 80) + px;
-
             @include media-lt-sm {
                 & {
                     margin-top: (-($app_card_height * $card_sm_space) + 80 * $card_sm_space) + px;
                 }
             }
-
             @include media-xxs {
                 & {
                     margin-top: (-($app_card_height * $card_xs_space) + 80 * $card_sm_space) + px;
@@ -214,7 +210,7 @@ $app_card_height: 428;
             //HEIGHT PADDING
             $wp : 2;
             flex-grow: 1;
-            max-width: 405px;
+            max-width: 480px;
             //WIDTH
             $w : 355;
             width:  ($w)+px;

@@ -4,18 +4,36 @@
 
 .form-stripe {
     background-color: #fff;
-    padding: 50px 0;
+    padding: 5em 0;
+    display: grid;
+    justify-items: center;
+    .main-container{
+        width: 70vw;
+        max-width: 1200px;
+        
 
-    .main-form {
+    }
+    .envelop-out {
+
         background-color: #F1F1F1;
         padding: 100px;
-        border-top: 8px solid transparent;
-        border-bottom: 8px solid transparent;
-        border-image: 16 repeating-linear-gradient(-45deg, #000 0, #000 1em, #aaa 0, #aaa 2em, #58a 0, #58a 3em, #AAA 0, #aaa 4em);
+        border-top: 7px solid transparent;
+        border-bottom:7px solid transparent;
+
+        // border: 7px solid transparent;
+        // box-shadow: 0 5px 9px -5px rgba(0, 0, 0, 0.666);
+        border-radius: 6px;
+        border-image: 16 repeating-linear-gradient(-45deg, rgb(224, 224, 224) 0, rgb(224, 224, 224) 1em, rgb(255, 93, 93) 0, rgb(255, 78, 78)  2em, rgb(224, 224, 224) 0, rgb(224, 224, 224) 3em, rgb(45, 42, 255) 0, rgb(128, 42, 241) 4em);
+
+
+        @include shadowbend-bottom;
+        .envelop{
+
         .form-group {
             display: flex;
             align-items: center;
         }
+    }
 
         .stripe-title {
             font-family: $roboto_regular;

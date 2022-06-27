@@ -232,4 +232,37 @@
           }
         }
 
+@mixin shadowbend-bottom($shadowcolor: rgba(0, 0, 0, 1)){
+    position: relative;
+    z-index: 99 !important;
+    transform: translateZ(3xp);
+        box-shadow: 0 11px 14px -1px rgba(26, 26, 26, 0.24);
+        transform-style:preserve-3d;
+    &:before, &:after
+    {
+        // transition: transform .4s  , box-shadow .4s;
+        // transform: translate3d(0,0,-4px);
+
+        content: '';
+        background: transparent;
+        position: absolute;
+        width: 47.9%;
+        height: 3%;
+        bottom: -4px;
+        z-index: -14 !important;
+        box-shadow: 0 1.6rem 2rem $shadowcolor;
+
+        
+    }
+    &::after{
+        transform-origin: bottom left;
+        transform: translate3d(0,0,-3px) skewY(-8deg)  ;
+        left:  16px;
+    }
+    &::before{
+        right: 16px;
+        transform:translate3d(0,0,-3px) skewY(8deg) ;
+        transform-origin: bottom right;
+    }
+}
 // 

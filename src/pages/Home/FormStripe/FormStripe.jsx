@@ -4,9 +4,9 @@ const FormStripe = () => {
     return (
         <div className="form-stripe">
             <div className="main-container">
-                <div className="row">
-                    <div className="col-12">
-                        <div className="main-container main-form">
+                <div className="envelop-out">
+                    <div className="envelop">
+                        <div className="form-container">
                             <form>
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-12">

@@ -1,4 +1,7 @@
 import "./FillCard.scss";
+import logoWhite from "../../../../assets/images/logo-white.svg"
+import APPITUNITYwriten from "../../../../assets/images/APPITUITY.svg"
+
 const FillCard = ({ item, className }) => {
 
     return (
@@ -22,6 +25,10 @@ const FillCard = ({ item, className }) => {
                     <div className="fill-card-body">
                         <p>{item.description}</p>
                     </div>
+                        <div className="Logo-container">
+                            <img src={logoWhite} alt="Appituneity Logo" />
+                            <img src={APPITUNITYwriten} alt="Appituneity Logo" />
+                        </div>
                 </div>
             </div>
         </div>

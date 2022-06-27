@@ -43,7 +43,7 @@ const info = () => {
             icon: icon,
         }
     ], 
-    footerDescription:'Regardless of the size of your project, you are the one who initially decides how many specialists developers you need to hire on the project. You can always add new developers to your team or reduce the team as necessary.It is all done quickly and without any side cost.',
+    footerDescription:'* Regardless of the size of your project, you are the one who initially decides how many specialists developers you need to hire on the project. You can always add new developers to your team or reduce the team as necessary.It is all done quickly and without any side cost.',
 }
 )
 }

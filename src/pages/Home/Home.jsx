@@ -20,8 +20,8 @@ const Home = () => {
                 <DealsStripe />
                 <VideoStripe />
                 <WhyAppituneityStripe />
-                <FaqStripe />
                 <DedicatedTeamsStripe />
+                <FaqStripe />
                 <TechnologiesStripe />
                 <FormStripe />
             </main>

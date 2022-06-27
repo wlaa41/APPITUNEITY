@@ -3,30 +3,28 @@
 @import 'src/styles/mixins';
 
 .why-appituneity-stripe {
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
     // background: linear-gradient(149.47deg, rgba(20, 170, 105, 0.9) 5.08%, rgba(25, 145, 128, 0.9) 50.65%, rgba(33, 127, 149, 0.9) 75.66%);
-    background: linear-gradient(149.47deg, rgba(162, 162, 162, 0.9) 5.08%, rgba(192, 192, 192, 0.9) 50.65%, rgba(185, 185, 185, 0.9) 75.66%);
 
     // box-shadow: 9px 10px 34px 15px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(10px);
+    background: lightgray;
 
     .stripe-header {
-        padding: 5rem 0 4.5rem;
+        padding: 8rem 0 4.8rem;
 
         h2 {
-            font-family: $roboto_black;
+            font-family: $roboto_bold;
             font-style: normal;
             font-weight: 600;
             font-size: 4em;
             text-align: center;
             color: $white;
             margin: 0;
-            
-            background: linear-gradient(149.47deg, rgba(20, 170, 105, 1) 5.08%, rgba(25, 145, 128, 1) 50.65%, rgba(33, 127, 149, 1) 75.66%);
+            background: linear-gradient(149.47deg, rgb(26, 188, 118) 5.08%, rgb(31, 196, 174) 50.65%, rgb(35, 140, 163) 75.66%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-left: 2rem;
-
         }
 
     }
