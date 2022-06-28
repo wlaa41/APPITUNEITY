@@ -37,29 +37,27 @@
     }
 }
 
-// @keyframes alterVis {
-//     0%{
-//         opacity: 1;
-//     }
-//     10%{
-//         transform: rotateY(-5deg);
-//     }    
-//     20%{
-//         transform: rotateY(-7deg);
-//     }
-//     30%{
-//         transform: rotateY(-5deg);
-//     }
-//     40%{
-//         transform: rotateY(-6deg);
-//     }
-//     60%{
-//         transform: rotateY(-5deg);
-//     }
-//     80%{
-//         transform: rotateY(-7deg);
-//     }
-//     90%{
-//         transform: rotateY(-5deg);
-//     }
-// }
+// THIS METHOD OVERLAP WITH ALTERVIS1
+@keyframes alterVis2-overlap {
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }  
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}

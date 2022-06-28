@@ -32,43 +32,6 @@ $fill_card_height: 410;
             position: absolute;
             inset: 0
         }
-            // Flip Card
-
-        // .fill-card-front {
-        //     -webkit-backface-visibility: hidden;
-        //     backface-visibility: hidden;
-        //     display: flex;
-        //     flex-direction: column;
-        //     align-items: center;
-        //     padding: ($fill_card_height / 4)+px 2rem;
-
-        //     .fill-card-desc {
-        //         margin-top: 3rem;
-
-        //         h2 {
-        //             font-family: $roboto_light;
-        //             font-style: normal;
-        //             font-weight: 600;
-        //             font-size: font-size(20, em);
-        //             text-align: center;
-        //             color: #FFFFFF;
-        //         }
-        //     }
-
-        //     .fill-card-img {
-        //         text-align: center;
-        //         // margin-bottom: 1rem;
-
-        //         img {
-        //             // margin: 0 auto;
-        //             max-width: 80px;
-        //             opacity: 0.1;
-
-
-        //         }
-        //     }
-        // }
-            // Flip Card
             .fill-card-back::after{
                 content: "";
                 position: absolute;
@@ -80,7 +43,6 @@ $fill_card_height: 410;
             }
         .fill-card-back {
             overflow: hidden;
-            
             .Logo-container{
                 display: grid;
                 width: 100%;
@@ -88,25 +50,27 @@ $fill_card_height: 410;
                 bottom: 0;
                 position: absolute;
                 left:0;
+                transition: transform 1.4s ease , opacity .5s ease;
+                transform: translateY(150px);
+
 
             img{
                 position: absolute;
                 width: 60%;
-                // margin: 2em auto 0 2em;
-
             }
             img:first-child{
-                height: 44px;
-                // transform: translateY(-150px);
-                mix-blend-mode:multiply;
-
+                height: 40px;
+                transform: translateY(-150px);
+                mix-blend-mode:overlay;
                 animation: alterVis1 11s linear 0s infinite;
             }
             img:nth-child(2){
-                // transform: translateY(-95px);
+                transform: translateY(-95px);
                 opacity: 0;
+                mix-blend-mode:overlay;
+
                 margin-bottom: -7px;
-                animation: alterVis2 11s linear 0s infinite;
+                animation: alterVis2-overlap 11s linear 0s infinite;
 
             }
 
@@ -135,7 +99,6 @@ $fill_card_height: 410;
 
             .fill-card-body {
                 padding-top: 1.9rem;
-
                 p {
                     font-family: $roboto_light;
                     font-style: normal;
@@ -143,7 +106,7 @@ $fill_card_height: 410;
                     font-size: font-size(14, em);
                     color: #dadada;
                     padding-top: 1rem;
-                    transition: transform 1.4s ease , opacity 1.5s ease;
+                    transition: transform 1.4s ease , opacity .5s ease;
 
                 }
             }
@@ -153,29 +116,31 @@ $fill_card_height: 410;
     }
 
     &:hover {
-        // Flip Card
-        // .fill-card-content {
-        //     // transition: transform .7s ease-in-out;
-        //     transform: rotateY(180deg);
-        // }
-        // Flip Card
         .fill-card-back {
+            .Logo-container{
+                transform: translateY(0px);
+                img{
+
+                }
+                img:first-child{
+                    height: 44px;
+                    // transform: translateY(-150px);
+                    // animation: alterVis1 15s linear 0s infinite;
+                }
+                img:nth-child(2){
+                    // transform: translateY(-95px);
+    
+                    opacity: 0;
+                    margin-bottom: -7px;
+                    // animation: alterVis2 15s linear 0s infinite;
+    
+                }
+
+            }
             img{
 
             }
-            img:first-child{
-                height: 44px;
-                transform: translateY(-150px);
-                // animation: alterVis1 15s linear 0s infinite;
-            }
-            img:nth-child(2){
-                transform: translateY(-95px);
 
-                opacity: 0;
-                margin-bottom: -7px;
-                // animation: alterVis2 15s linear 0s infinite;
-
-            }
             .fill-card-header {
                 h2 {}
                 img { }
@@ -184,7 +149,6 @@ $fill_card_height: 410;
                 p {
                     opacity: 0;
                     transform: translateY(444px);
-                    transition: transform 1.4s ease , opacity .5s ease;
                 }
             }
         }
